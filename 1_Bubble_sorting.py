@@ -1,8 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# ### 1. Задача bubble sorting
-# In[2]:
 def bubble_sort(values: [], tip=['desc', 'asc']) -> []:
     
     '''
@@ -28,9 +23,6 @@ def bubble_sort(values: [], tip=['desc', 'asc']) -> []:
             elif (tip == 'desc' and values[i] < values[i + 1]):
                 values[i] , values[i + 1] = values[i + 1] , values[i]
     return values
-
-
-# In[ ]:
 
 
 

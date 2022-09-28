@@ -1,12 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# ### 3. Задача num of same 
-
-# In[8]:
-
-
-# моё решение
 def num_of_same(word: str) -> [int]:
     '''
     This function finds highest number of elements in string that is equal and goes one to each other
@@ -17,7 +8,6 @@ def num_of_same(word: str) -> [int]:
               example = num_of_same(word='aaabbbbcc')
               print(example)
                    (4)
-              
     '''
     frst = 0
     global_max = 0   
@@ -32,11 +22,6 @@ def num_of_same(word: str) -> [int]:
         
     print(global_max)
 
-
-# In[9]:
-
-
-# эталонное решение
 def find_max(string: str) -> int:
     '''
     This function finds highest number of elements in string that is equal and goes one to each other
@@ -47,7 +32,6 @@ def find_max(string: str) -> int:
               example = num_of_same(word='aaabbbbcc')
               print(example)
                    (4)
-              
     '''
     i, j, c_len, max_len = 0, 0, 0, 0,
     while i < len(string):
@@ -56,9 +40,6 @@ def find_max(string: str) -> int:
         max_len = max(max_len, i - j + 1)    
         i += 1
     return max_len
-
-
-# In[ ]:
 
 
 

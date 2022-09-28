@@ -1,11 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# ### 2. Задача sum of two <a id = '2'></a>
-
-# In[2]:
-
-
 from typing import List, Tuple
 def sum_of_two(values: List[int], target: int) -> Tuple[int, int]:
     '''
@@ -26,11 +18,4 @@ def sum_of_two(values: List[int], target: int) -> Tuple[int, int]:
         dif = target - values[i]
         if dif in seen_el:
             return (i, seen_el[dif])
-        seen_el[values[i]] = i   
-
-
-# In[ ]:
-
-
-
-
+        seen_el[values[i]] = i
