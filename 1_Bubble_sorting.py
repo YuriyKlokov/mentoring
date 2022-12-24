@@ -17,7 +17,7 @@ def bubble_sort(values: [], tip=['desc', 'asc']) -> []:
     '''
     
     for k in range(0, len(values) - 1):
-        for i in range(0, len(values) - 1 - k):
+        for i in range(0, len(values) - k - 1):
             if (tip == 'asc' and values[i] > values[i + 1]):
                 values[i] , lst[i + 1] = values[i + 1] , values[i]
             elif (tip == 'desc' and values[i] < values[i + 1]):
