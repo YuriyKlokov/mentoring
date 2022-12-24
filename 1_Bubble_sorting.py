@@ -23,7 +23,3 @@ def bubble_sort(values: [], tip=['desc', 'asc']) -> []:
             elif (tip == 'desc' and values[i] < values[i + 1]):
                 values[i] , values[i + 1] = values[i + 1] , values[i]
     return values
-
-
-
-
