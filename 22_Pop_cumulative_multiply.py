@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[9]:
-
-
 def pop_cum_multiply(lst: list) -> list:
     """
     This function calculate multiplication of list elements for each element without itself
@@ -25,4 +19,3 @@ def pop_cum_multiply(lst: list) -> list:
         if len(lst) > 1:
             result.append(prev_cum_value)
     return result
-
