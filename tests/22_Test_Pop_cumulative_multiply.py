@@ -1,3 +1,6 @@
+from functools import reduce
+
+
 def pop_cum_multiply(lst: list) -> list:
     """
     This function calculate multiplication of list elements for each element without itself
