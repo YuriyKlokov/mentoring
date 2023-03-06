@@ -1,3 +1,5 @@
+from functools import reduce
+
 def zero_sequence(lst: list) -> bool:
     """
     This function finds out if set include sequence with zero sum of elements.
